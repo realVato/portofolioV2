@@ -7,4 +7,88 @@ body {
 /* GLOBAL */
 a {
     text-decoration: none;
+    color: #fff;
 }
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(217, 16, 224);
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+/* NAVBAR */
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+nav ul li {
+    padding: 15px 15px 15px 0;
+}
+
+/* INTRO */
+#intro {
+    background-color: #333e6d;
+    color: #fff;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+}
+
+#intro .wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+#intro .wrapper .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#intro .wrapper .container .skills {
+    display: flex;
+}
+
+#intro .wrapper .about-me {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}
+
+#intro .wrapper .about-me div {
+    display: flex;
+    align-items: center;
+}
+
+/* PROJECT */
+
+
+    
+/* FOOTER */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
